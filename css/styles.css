@@ -1,5 +1,6 @@
 .list {
     list-style-type: none;
+    display: flex;
 }
 
 .link {
@@ -51,7 +52,21 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.container {
+   width: 1158px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.main-navigation {
+    display: flex;
+}
 
+.menu {
+    display: flex;
+    column-gap: 24px;
+}
 .logo {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -60,6 +75,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo-studio {
