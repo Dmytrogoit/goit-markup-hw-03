@@ -61,7 +61,6 @@ body {
    margin-right: auto;
    padding-left: 15px;
    padding-right: 15px;
-   display: flex;
 }
 .main-navigation {
     display: flex;
@@ -105,16 +104,22 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 40px;
+    
 }
 
 .contacts-list {
     font-style: normal;
     gap: 40px;
     display: flex;
+    margin-left: auto;
 }
 
 .hero-section {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .main-title {
@@ -124,9 +129,16 @@ body {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
+
+}
+.hero-container {
+    display: flex;
+    align-items: center;
 }
 
 .order-service-button {
+    
     color: #FFF;
 
     font-family: Roboto, sans-serif;
@@ -135,11 +147,34 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
+.section {
+    padding: 120px 0;
+}
+
+.about-us-list {
+    display: flex;
+    gap: 24px;
+}
+.about-us-item {
+    width: calc((100% - 72px) / 4);
+}
+.about-us-text {
+    margin-bottom: 8px;
+}
+.about-us-title {
+    margin-bottom: 8px;
+}
 .our-team-section {
     background-color: #F4F4FD;
 }
+
 
 .title-second {
     color: #2E2F42;
